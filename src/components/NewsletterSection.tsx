@@ -27,20 +27,20 @@ export const NewsletterSection = () => {
                   </div>
                 </div>
                 <h3 className="text-3xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                  ¡Gracias por suscribirte!
+                  ¡Bienvenido a la Transformación Cuántica!
                 </h3>
                 <p className="text-muted-foreground text-lg">
-                  Recibirás nuestras mejores enseñanzas y ofertas espirituales pronto.
+                  Recibirás contenido exclusivo sobre física cuántica, neurociencias y epigenética aplicada.
                 </p>
               </div>
             ) : (
               <div className="space-y-6">
                 <div className="space-y-3">
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
-                    ¿Quieres recibir sabiduría espiritual?
+                    Descubre la Ciencia de la Consciencia
                   </h3>
                   <p className="text-lg text-muted-foreground">
-                    Suscríbete a nuestro newsletter y recibe contenido exclusivo
+                    Recibe investigaciones cuánticas, protocolos de neuroplasticidad y técnicas de reprogramación epigenética
                   </p>
                 </div>
                 

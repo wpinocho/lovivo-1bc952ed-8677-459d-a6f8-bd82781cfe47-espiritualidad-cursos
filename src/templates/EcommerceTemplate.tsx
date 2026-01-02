@@ -120,7 +120,7 @@ export const EcommerceTemplate = ({
           <div>
             <BrandLogoLeft />
             <p className="mt-4 text-muted-foreground">
-              Tu portal de transformación espiritual
+              Donde la ciencia cuántica encuentra la consciencia superior
             </p>
           </div>
 
@@ -151,7 +151,7 @@ export const EcommerceTemplate = ({
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center text-muted-foreground">
-          <p>&copy; 2025 Alma Espiritual. Todos los derechos reservados.</p>
+          <p>&copy; 2025 Consciencia Cuántica. Todos los derechos reservados.</p>
         </div>
       </div>
     </div>

@@ -49,10 +49,10 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
         {/* Content */}
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-secondary via-primary to-accent bg-clip-text text-transparent animate-in fade-in slide-in-from-bottom-4 duration-1000">
-            Despierta Tu Consciencia
+            Ciencia y Consciencia Unidas
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
-            Transforma tu vida con cursos espirituales diseñados para elevar tu vibración y conectarte con tu ser superior
+            Transforma tu realidad con física cuántica, neurociencias, epigenética y espiritualidad aplicada. Donde la ciencia encuentra la consciencia.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
             <Button 
@@ -109,13 +109,13 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               <h2 className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2">
                 {selectedCollectionId 
                   ? collections.find(c => c.id === selectedCollectionId)?.name || 'Colección' 
-                  : 'Cursos Destacados'
+                  : 'Cursos de Transformación Cuántica'
                 }
               </h2>
               <p className="text-muted-foreground">
                 {selectedCollectionId 
                   ? 'Cursos seleccionados de esta colección'
-                  : 'Inicia tu viaje de transformación espiritual'
+                  : 'Reprograma tu mente, cuerpo y realidad con ciencia de vanguardia'
                 }
               </p>
             </div>
