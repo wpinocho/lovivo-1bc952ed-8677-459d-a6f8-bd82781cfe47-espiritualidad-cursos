@@ -68,6 +68,11 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			backgroundImage: {
+				'mystic-gradient': 'linear-gradient(135deg, hsl(270, 70%, 55%) 0%, hsl(220, 80%, 60%) 50%, hsl(45, 95%, 65%) 100%)',
+				'cosmic-gradient': 'linear-gradient(to bottom right, hsl(260, 50%, 15%), hsl(270, 60%, 25%))',
+				'celestial-glow': 'radial-gradient(circle at top right, hsl(270, 70%, 55%, 0.2), transparent 70%)'
+			},
 			keyframes: {
 				'accordion-down': {
 					from: {
